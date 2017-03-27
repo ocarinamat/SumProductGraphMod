@@ -1,0 +1,22 @@
+Running experiments on all datsets
+#########
+PARAMS:
+    filename: nltcs
+    K: 7
+    nInsertions: 140
+    diricheletPrior: 0
+    unifWeightPrior: 0
+    lambda: inf
+    init: random
+    maxBatchMemSize: 1000000
+    em_W: 0
+    em_theta: 0
+    nIt_params: 0
+    nIt_struct: 0
+#########
+
+NAME	TRAIN	VALID	TEST
+a	1	2	3
+b	4	5	6
+c	7	8	9
+d	10	11	12

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Common.h</itemPath>
+      <itemPath>Factor.h</itemPath>
+      <itemPath>LearnSPGM.h</itemPath>
+      <itemPath>Log.h</itemPath>
+      <itemPath>MatrixContiguous.h</itemPath>
+      <itemPath>MatrixRowMajor.h</itemPath>
+      <itemPath>Params.h</itemPath>
+      <itemPath>SPGM.h</itemPath>
+      <itemPath>SPGM_mixture.h</itemPath>
+      <itemPath>SPGMnodes.h</itemPath>
+      <itemPath>kmeans-master/kmeans.h</itemPath>
+      <itemPath>runs.h</itemPath>
+      <itemPath>tests.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ChowLiu.cpp</itemPath>
+      <itemPath>Common.cpp</itemPath>
+      <itemPath>Factor.cpp</itemPath>
+      <itemPath>LearnSPGM.cpp</itemPath>
+      <itemPath>Log.cpp</itemPath>
+      <itemPath>SPGM.cpp</itemPath>
+      <itemPath>SPGM_mixture.cpp</itemPath>
+      <itemPath>SPGMnodes.cpp</itemPath>
+      <itemPath>kmeans-master/kmeans.cpp</itemPath>
+      <itemPath>main1.cpp</itemPath>
+      <itemPath>runs.cpp</itemPath>
+      <itemPath>tests.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="ChowLiu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Factor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Factor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LearnSPGM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LearnSPGM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MatrixContiguous.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MatrixRowMajor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGM_mixture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGM_mixture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGMnodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGMnodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kmeans-master/kmeans.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kmeans-master/kmeans.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="runs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="runs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-O3</commandLine>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ChowLiu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Factor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Factor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LearnSPGM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LearnSPGM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MatrixContiguous.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MatrixRowMajor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGM_mixture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGM_mixture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPGMnodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPGMnodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kmeans-master/kmeans.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kmeans-master/kmeans.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="runs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="runs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
