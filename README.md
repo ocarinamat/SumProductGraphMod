@@ -3,9 +3,9 @@
 Hello! This Library implements Sum-Product Graphical Models (SPGM), including inference and structure learning.
 
 This document contains instructions on how to run the code and reproduce the experiments in the paper. 
-Please do not redistribute - a non anonymized version is available at the author's homepage. 
+Detailed examples can be found in the Test units alongside each C++ class. 
 
-# 1) running / compiling the code
+## 1) running / compiling the code
 
 If you don't need to compile the code, you can just use the executable located in dist/Release/GNU-Linux-x86. 
 
@@ -13,7 +13,7 @@ You can compile the C++ project with either Netbeans 8.2 (the folder is a Netbea
 The only library you need is the BOOST C++ library ( http://www.boost.org/ ). 
 
 
-# 1) reproducing the experiments in the paper
+## 2) reproducing the experiments in the paper
 
 The program executing LearnSPGM is called spgm_0.2 and can be found in dist/Release/GNU-Linux-x86. 
 
@@ -25,7 +25,7 @@ then go to the directory where spgm_0.2 is located and run the following command
 
 the last argument reproduces learning with the hyperparameters used in the paper. 
 
-# 1) running your own experiments
+## 3) running your own experiments
 
 spgm_0.2 accepts a number of parameters (type --help to see a dirty list of them). The most important are:
 --nIns (number of edge insertions)
